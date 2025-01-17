@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Tailwindcss v4.0 BETA",
+        "date": "2024-11-21",
+        "excerpt": "Tailwindcss v4.0 BETA est maintenant disponible. Découvrez les nouveautés de cette version.",
+        "link": "tailwindcss-v4-0-beta",
+        "content": "<p>Il y a environ huit mois, nous avons publié en open source nos avancées sur Tailwind CSS v4.0. Après des centaines d'heures passées à corriger des bugs, à travailler sur une rétrocompatibilité laborieuse et à résoudre des problèmes frustrants sur Windows CI, je suis ravi d’annoncer la première version bêta publique.</p><p>Comme je l’avais mentionné lors de la publication de la première version alpha, Tailwind CSS v4.0 est un tout nouveau moteur, conçu pour offrir des performances optimales et répondre aux besoins du web moderne.</p><h2>Optimisé pour les performances</h2><ul><li>Les builds complètes dans le nouveau moteur sont jusqu’à <strong>5 fois plus rapides</strong>, et les builds incrémentiels sont plus de <strong>100 fois plus rapides</strong>, mesurés en microsecondes.</li></ul><h2>Chaîne d’outils unifiée</h2><ul><li>Gestion des imports intégrée, ajout automatique de préfixes pour la compatibilité des navigateurs, et transformation de syntaxe – le tout sans outils supplémentaires requis.</li></ul><h2>Configuration axée sur le CSS</h2><ul><li>Une expérience développeur repensée, vous permettant de personnaliser et d’étendre le framework directement en CSS, au lieu d’utiliser un fichier de configuration JavaScript.</li></ul><h2>Conçu pour le web moderne</h2><ul><li>Basé sur les <strong>cascades natives</strong> de CSS, les couleurs à <strong>large gamme de couleurs</strong>, et offrant une prise en charge de premier ordre pour les fonctionnalités modernes de CSS telles que :<ul><li>Les <strong>requêtes de conteneurs (container queries)</strong></li><li>La directive <strong>@starting-style</strong></li><li>Les <strong>popovers</strong>, et bien plus encore.</li></ul></li></ul>"
+    },
+    {
+        "id": 2,
+        "title": "Bootstrap 5.3.3",
+        "date": "2024-02-20",
+        "excerpt": "La nouvelle version de Bootstrap est là avec des corrections de bugs, des améliorations documentaires, et des ajustements pour les modes couleur !",
+        "link": "bootstrap-5-3-3",
+        "content": ""
+    },
+    {
+        "id": 3,
+        "title": "CSSéducteur: Ajout des articles",
+        "date": "2024-01-7",
+        "excerpt": "Le site a été mis à jour avec la possibilité de consulter les articles. Découvrez les dernières nouveautés en matière de CSS.",
+        "link": "csseducteur-ajout-articles",
+        "content": ""
+    }
+]

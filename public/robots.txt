@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.csseducteur.com
+
+# Sitemaps
+Sitemap: https://www.csseducteur.com/sitemap.xml
