@@ -1,7 +1,29 @@
 import Image from "next/image";
-import articles from "@/data/articles.json";
+import articles from "@/data/articles";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: Promise<{ link: string }> }): Promise<Metadata> {
+  const link = (await params).link;
+  const article = articles.find((article) => article.link === link);
+  
+  if (!article) {
+    return {
+      title: 'Article non trouvé',
+      description: 'L\'article que vous recherchez n\'existe pas.',
+    };
+  }
+
+  return {
+    title: `${article.title} - CSSéducteur`,
+    description: article.excerpt,
+    openGraph: {
+      title: article.title,
+      description: article.excerpt
+    },
+  };
+}
 
 export default async function Article({
   params,

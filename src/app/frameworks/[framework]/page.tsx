@@ -1,7 +1,29 @@
 import Image from "next/image";
-import frameworks from "@/data/frameworks.json";
+import frameworks from "@/data/frameworks";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: Promise<{ framework: string }> }): Promise<Metadata> {
+  const link = (await params).framework;
+  const framework = frameworks.find((framework) => framework.link === link);
+  
+  if (!framework) {
+    return {
+      title: 'Framework non trouvé',
+      description: 'Le framwork que vous recherchez n\'existe pas.',
+    };
+  }
+
+  return {
+    title: `${framework.name} - CSSéducteur`,
+    description: framework.description,
+    openGraph: {
+      title: framework.name,
+      description: framework.description
+    },
+  };
+}
 
 export default async function Framework({ params }: { params: Promise<{ framework: string }>}) {
   

@@ -1,5 +1,5 @@
 import ArticleCard from "@/components/ArticleCard";
-import articles from "@/data/articles.json";
+import articles from "@/data/articles";
 
 export default function Articles() {
   return (

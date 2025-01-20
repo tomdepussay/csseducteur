@@ -1,4 +1,4 @@
-import frameworks from '@/data/frameworks.json';
+import frameworks from '@/data/frameworks';
 import FrameworkCard from '@/components/FrameworkCard';
 
 export default function Frameworks() {

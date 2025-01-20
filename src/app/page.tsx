@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
-import frameworks from "@/data/frameworks.json";
+import frameworks from "@/data/frameworks";
 import FrameworkCard from "@/components/FrameworkCard";
 import WhyChooseFramework from "@/components/WhyChooseFramework";
 
