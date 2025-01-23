@@ -17,7 +17,7 @@ export default function WhyChooseFramework() {
           <div className="grid md:grid-cols-3 gap-8 text-left">
             <div className="bg-gray-100 p-6 rounded-lg shadow-md">
               <CheckCircle size={32} className="text-green-500 mb-4" />
-              <h3 className="text-xl font-semibold mb-3">Gagnez du temps</h3>
+              <h2 className="text-xl font-semibold mb-3">Gagnez du temps</h2>
               <p className="text-gray-700">
                 Les frameworks CSS offrent des composants prêts à l’emploi, vous
                 permettant de créer rapidement des interfaces modernes et
@@ -26,9 +26,9 @@ export default function WhyChooseFramework() {
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-md">
               <CheckCircle size={32} className="text-green-500 mb-4" />
-              <h3 className="text-xl font-semibold mb-3">
+              <h2 className="text-xl font-semibold mb-3">
                 Des designs responsifs
-              </h3>
+              </h2>
               <p className="text-gray-700">
                 Adaptez vos sites aux différents écrans grâce aux systèmes de
                 grilles intégrés comme ceux de Bootstrap ou Tailwind CSS.
@@ -36,7 +36,7 @@ export default function WhyChooseFramework() {
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-md">
               <CheckCircle size={32} className="text-green-500 mb-4" />
-              <h3 className="text-xl font-semibold mb-3">Un style uniforme</h3>
+              <h2 className="text-xl font-semibold mb-3">Un style uniforme</h2>
               <p className="text-gray-700">
                 Maintenez une cohérence visuelle sur toutes vos pages grâce à
                 des classes CSS prédéfinies et des styles harmonisés.
